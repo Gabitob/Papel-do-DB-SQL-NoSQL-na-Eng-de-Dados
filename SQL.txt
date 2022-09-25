@@ -1,0 +1,30 @@
+# Principais comandos SQL
+- CREATE
+- INSERT
+- SELECT
+- UPDATE
+- DELETE
+
+# Principais características do SGBD:
+
+- Abstração
+- Isolamento
+- Múltiplas Visões
+- Auto-descrição
+- Compartilhamento
+- Transação Multiuser
+
+Banco de dados relacional = Cada linha da tabela é um registro com uma identificação única chamada chave primaria. As colunas da tabela contêm os atributos dos dados, e cada registro geralmente tem um valor para cada atributo, facilitando o estabelecimento das relações entre os dados.
+
+Banco de dados não relacional = É qualquer banco de dados que não segue o modelo relacional fornecido pelos sistemas tradicionais de gerenciamento de bancos de dados relacionais (SGBDR). Esta categoria de bancos de dados, é também conhecida como banco de dados NoSQL.
+
+As bases de dados relacionais utilizam Linguagem de Consulta Estruturada (SQL), tornando-as uma boa escolha para aplicações que envolvem o gerenciamento de várias transações. A estrutura de um banco de dados relacional permite vincular informações de diferentes tabelas através do uso de chaves (ou índices) estrangeiras.
+
+Se você estiver lidando com uma grande quantidade de dados, a complexidade do banco de dados relacional e das queries necessárias também vai crescer na mesma proporção. Nessa situação, talvez você precise considerar a possibilidade de utilizar um base de dados não relacional. Uma base de dados não relacional pode armazenar dados sem uma mecânica explícita e estruturada para vincular dados de diferentes tabelas uns aos outros.
+
+Dentre os dois, tenho usado mais o banco de dados relacional.
+
+NoSQL (Not Only SQL) é o termo utilizado para banco de dados não relacionais de alto desempenho, onde geralmente não é utilizado o SQL como linguagem de consulta. 
+O NoSQL foi criado para ter uma performance melhor e uma escalabilidade mais horizontal para suprir necessidades onde os bancos relacionais não são eficazes.
+
+Quando comparados a bancos de dados relacionais – RBDMS, sistemas NoSQL oferecem mais escalabilidade, melhor performance em queries e flexibilidade para manipular dados que podem apresentar mudanças em seu formato.
